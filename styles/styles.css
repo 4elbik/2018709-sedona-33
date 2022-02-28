@@ -98,11 +98,23 @@ body {
 .main-index {
   color: #000000;
   background-color: #F2F2F2;
-  background-image: url("../images/logo/divider.svg"), url("../images/background/index-background.jpg");
-  background-repeat: no-repeat;
+  
+  /* background-repeat: no-repeat;
   background-origin: content-box;
   background-size: 1200px 57px, 1200px 485px;
-  background-position:  top;
+  background-position:  top; */
+}
+
+.foo {
+  background-image: url("../images/logo/divider.svg"), url("../images/background/index-background.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.logo {
+  display: block;
+  width: 458px;
+  padding: 51px 371px 82px 371px;
 }
 
 
@@ -122,11 +134,7 @@ body {
   width: 1200px;
 }
 
-.logo {
-  display: block;
-  width: 458px;
-  margin: 51px 371px 82px 371px;
-}
+
 
 .paragraph-header {
   font-family: "PT Sans", sans-serif;
